@@ -2,6 +2,7 @@
 export default {
   name: 'MenuItem',
   functional: true,
+  // set to be true means this component is a functional component, which means no data, no responsive data, only receive props
   props: {
     icon: {
       type: String,
@@ -20,7 +21,7 @@ export default {
       if (icon.includes('el-icon')) {
         vnodes.push(<i class={[icon, 'sub-el-icon']} />)
       } else {
-        vnodes.push(<svg-icon icon-class={icon}/>)
+        vnodes.push(<svg-icon icon-class={icon} />)
       }
     }
 
