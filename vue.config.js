@@ -66,7 +66,7 @@ module.exports = {
     /**
      * this solution is under development emvironment, when under production environment, need another solution
      * cross domain problem can be solved by proxy,
-     * like localhost cannot send request to a backend srver http://itheima.xxx.com
+     * like localhost cannot send request to a backend server http://itheima.xxx.com
      * proxy is the bridge that connect front end and back end service
      * locolhost will send request to proxy, then proxy work as a local backend server who can send request to another server which is in different domain
      */
